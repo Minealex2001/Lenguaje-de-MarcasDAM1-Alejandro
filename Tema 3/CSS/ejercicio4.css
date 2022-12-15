@@ -1,0 +1,29 @@
+
+.a1{
+    color: #2d6921;
+    border: 3px dotted #d66f0f;
+    width: 500px;
+    text-align: right;
+    margin-bottom: 100px;
+    font-weight: bold;
+    padding: 20px;
+}
+.a2{
+    border: 3px solid blue;
+    width: 500px;
+    font-style: italic;
+    padding: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+.a3{
+    border: 6px outset #666;
+    width: 30%;
+    padding: 10px;
+    text-align: justify;
+    line-height: 30px ;
+}
+.a4{
+    border-top: 3px solid #f0377b;
+    width: 75%;
+}

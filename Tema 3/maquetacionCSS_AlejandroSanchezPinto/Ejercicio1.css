@@ -1,0 +1,62 @@
+.rojo {
+display: flex;
+height: 200px;
+background-color:red;
+float: left;
+position: relative;
+width: 33.33%;
+}
+.verde {
+display: flex;
+height: 200px;
+background-color:green;
+float: left;
+position: relative;
+width: 33.33%;
+}
+.azul {
+display: flex;
+height: 200px;
+background-color:blue;
+float: left;
+position: relative;
+width: 33.33%;
+}
+.negro {
+display: flex;
+height: 200px;
+background-color:black;
+float: left;
+position: relative;
+width: 100%;
+}
+.rosa {
+display: flex;
+height: 200px;
+background-color:pink;
+float: left;
+width: 50%;
+
+}
+.amarillo {
+display: flex;
+height: 200px;
+background-color:yellow;
+float: left;
+width: 50%;
+
+}
+.div1{
+background-color: #EAF0F6;
+width: 100%;
+margin: 10px;
+text-align: center;
+line-height: 50px;
+font-size: 60px;
+max-width: 1300px;
+}
+.div2{
+width: 100%;
+height: 33.33%;
+float: left;
+}

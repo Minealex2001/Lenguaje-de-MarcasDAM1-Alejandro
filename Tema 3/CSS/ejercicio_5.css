@@ -1,0 +1,54 @@
+body{
+    background-color:  #bdc3c7;
+}
+h1{
+color:  #9b59b6;
+}
+h1:hover{
+    background-color: red;
+}
+h2{
+    background-color: orange;
+}
+li{
+    color: #346dd8;
+}
+p{
+    color: yellow;
+}
+input{
+    border-color: red;
+    border-width: 3px;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+}
+div p{
+    font-size: 25px;
+}
+.text{
+    background-color: gray;
+}
+.d1 p{
+    background-color: pink;
+}
+.p1{
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+.d1 em{
+    color: white;
+    font-size: 20px;
+}
+li input{
+    margin-left: 50px;
+}
+a:visited{
+    color: gray;
+}

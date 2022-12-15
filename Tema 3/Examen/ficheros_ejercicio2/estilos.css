@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+}
+.contenedor{
+    width: 1200px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #1551a1;
+}
+.imagen1{
+    width: 300px;
+    padding: 35px;
+    float: left;
+}
+.navegador{
+    float: left;
+}
+li{
+    list-style: none;
+    float: left;
+}
+
+a{
+    color: white;
+    padding: 22px;
+    border: solid 1px white;
+}
+a:hover{
+    color: #1551a1;
+    background-color: white;
+}
+section{
+    width: 100%;
+    height: 430px;
+}
+main{
+    height: 600px;
+    width: 100%;
+}
+h1{
+    color: #ff7600;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+article{
+    height: 520px;
+    width: 380px;
+    margin: 10px;
+    border: solid 1px black;
+    float: left;
+    box-sizing:border-box ;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: black;
+}
+button{
+    color: white;
+    background-color: #144a91;
+}
+.articulo{
+    padding: 10px;
+    text-align: justify;
+}
+footer{
+    height: 185px;
+    width: 100%;
+    background-color: #062348;
+}
+.ImagenText{
+    width: 70%;
+}
+.textfoot{
+    color: white;
+    text-align: left;
+}
+.redes{
+    width: 30%;
+}

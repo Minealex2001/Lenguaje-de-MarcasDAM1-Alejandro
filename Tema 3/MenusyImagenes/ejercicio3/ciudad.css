@@ -1,0 +1,43 @@
+body{
+    padding-left: 12em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: yellow;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+}
+p{
+    padding: 10px;
+    margin-right: 30em;
+    color: black;
+    background-color: grey;
+    border: 5px solid brown;
+    float: left;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: pink solid 5px;
+    position: fixed;
+    float: left;
+    left: 50px;
+    list-style-type: none;
+    top: 100px;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    background-image: url(flecha_inactiva.png);
+    background-repeat: no-repeat;
+  }
+
+  li a:hover {
+    background-color: yellow;
+    color: black;
+    background-image: url(flecha_activa.png);
+  }

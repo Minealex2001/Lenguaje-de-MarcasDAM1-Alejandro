@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Rellenar</legend>
+            <label for="sexo"> Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Si, por favor">Si, por favor</option>
+            </select> <br>
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color"> <br>
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" name="color" id="color"> <br>
+            <br>
+            <input type="radio" name="programa" id="java">
+            <label for="java">Java</label>
+            <input type="radio" name="programa" id="Python" checked>
+            <label for="Python">Python</label>
+            <input type="radio" name="programa" id="HTML">
+            <label for="HTML">HTML</label> <br>
+            <textarea name="texto" id="texto" cols="60" rows="8" placeholder="Porfavor, escriba aqui..."></textarea><br>
+            <label for="Instituto">Instituto:</label><br>
+            <input type="text" name="Instituto" id="Instituto" maxlength="70" required value="Ies Alvaro Falomir" > <br>
+            <label for="Estudios">Estudios elegidos:</label>
+            <input type="text" name="Estudios" id="Estudios" placeholder="Bachiller o FP" required> <br>
+            <label for="Edad">Edad:</label>
+            <input type="number" name="edad" id="Edad" min="10" max="99"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="Email"> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Rellene las opciones siguientes</legend>
+            <input type="checkbox" name="sistema" id="windows" checked>
+            <label for="windows">Windows</label>
+            <input type="checkbox" name="sistema" id="MacOS" checked>
+            <label for="MacOS">MacOS</label>
+            <input type="checkbox" name="sistema" id="linux">
+            <label for="linux">Linux</label><br>
+            <label for="hora">Hora: </label>
+            <input type="time" name="hora" id="hora"><br>
+            <label for="archivo">Elija un fichero</label>
+            <input type="file" name="archivo" id="archivo" multiple>
+        </fieldset>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR">
+    </form>
+</body>
+</html>
