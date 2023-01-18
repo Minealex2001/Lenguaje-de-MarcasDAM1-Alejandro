@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio1.dtd" type="application/xml-dtd"?>
+<socios>
+    <socio dni="12345678A" numeroSocio="1" descuento="si">
+        <nombres>Juan</nombres>
+        <apellidos>Pérez</apellidos>
+    </socio>
+    <socio dni="23456789B" numeroSocio="2">
+        <nombres>Maria</nombres>
+        <apellidos>Gómez</apellidos>
+    </socio>
+    <socio dni="34567890C" numeroSocio="3">
+        <nombres>Lucas</nombres>
+        <apellidos>Fernández</apellidos>
+    </socio>
+</socios>

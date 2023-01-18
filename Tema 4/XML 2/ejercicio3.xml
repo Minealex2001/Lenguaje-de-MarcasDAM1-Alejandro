@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio3.dtd" type="application/xml-dtd"?>
+<libros>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <isbn>1234567890123</isbn>
+        <precio>12.99</precio>
+    </libro>
+    <libro>
+        <titulo>La Iliada</titulo>
+        <autor>Homero</autor>
+        <autor>Juan Valera</autor>
+        <isbn>2345678901234</isbn>
+        <precio>19.99</precio>
+    </libro>
+    <libro>
+        <titulo>La Metamorfosis</titulo>
+        <autor>Franz Kafka</autor>
+        <precio>9.99</precio>
+    </libro>
+    <libro>
+        <titulo>La Odisea</titulo>
+        <autor>Homero</autor>
+        <isbn>3456789012345</isbn>
+        <precio>16.99</precio>
+    </libro>
+    <libro>
+        <titulo>Los Miserables</titulo>
+        <autor>Victor Hugo</autor>
+        <isbn>4567890123456</isbn>
+    </libro>
+</libros>

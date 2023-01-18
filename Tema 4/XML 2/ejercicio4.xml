@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio4.dtd" type="application/xml-dtd"?>
+<noticias>
+    <noticia dia="25" mes="12" anyo="2021">
+        <titulo>Titulo de la noticia</titulo>
+        <autor>Juan Perez</autor>
+        <url direccion="www.ejemplo.com/noticia1"/>
+        <texto>Texto de la noticia</texto>
+        <foto>foto.jpg</foto>
+    </noticia>
+    <noticia dia="26" mes="12" anyo="2021">
+        <titulo>Titulo de la noticia 2</titulo>
+        <autor>Maria Gomez</autor>
+        <url direccion="www.ejemplo.com/noticia2"/>
+        <texto>Texto de la noticia 2</texto>
+    </noticia>
+</noticias>

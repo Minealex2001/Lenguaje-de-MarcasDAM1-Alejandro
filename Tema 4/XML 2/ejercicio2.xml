@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio2.dtd" type="application/xml-dtd"?>
+<universidad>
+    <alumnos>
+        <alumno>
+            <datos>
+                <dni tipo="dni">12345678A</dni>
+                <nombres>Juan</nombres>
+                <apellidos>Pérez</apellidos>
+                <fechanacimiento>01/01/2000</fechanacimiento>
+                <contacto>
+                    <direccion>Calle Falsa 123</direccion>
+                    <telefono>123456789</telefono>
+                    <telefono>987654321</telefono>
+                    <email>juanperez@example.com</email>
+                </contacto>
+            </datos>
+            <matricula>
+                <asignatura creditos="6" carrera="Informática" curso="2">
+                    <codigo>INF2</codigo>
+                    <nota>AP</nota>
+                </asignatura>
+            /</matricula>
+</universidad>

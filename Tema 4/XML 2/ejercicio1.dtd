@@ -1,0 +1,7 @@
+<!ELEMENT socios (socio*)>
+<!ELEMENT socio (nombres, apellidos)>
+<!ATTLIST socio dni CDATA #REQUIRED>
+<!ATTLIST socio numeroSocio CDATA #REQUIRED>
+<!ATTLIST socio descuento (si|no) "no">
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>

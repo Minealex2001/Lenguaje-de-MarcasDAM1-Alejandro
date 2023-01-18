@@ -1,0 +1,26 @@
+<!ELEMENT universidad (alumnos, profesores, asignaturas)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (datos, matricula)>
+<!ELEMENT datos (dni, nombres, apellidos, fechanacimiento, contacto?)>
+<!ATTLIST dni tipo (dni|pasaporte) #REQUIRED>
+<!ATTLIST dni pais CDATA #IMPLIED>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT contacto (direccion, telefono+, email+)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT matricula (asignatura+)>
+<!ELEMENT asignatura (codigo, nota)>
+<!ATTLIST asignatura creditos CDATA #REQUIRED>
+<!ATTLIST asignatura carrera CDATA #REQUIRED>
+<!ATTLIST asignatura curso CDATA #REQUIRED>
+<!ATTLIST asignatura optativa (si|no) #IMPLIED>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT profesor (datos, despacho, horarios, imparte)>
+<!ELEMENT despacho (#PCDATA)>
+<!ELEMENT horarios (#PCDATA)>
+<!ELEMENT imparte (asignatura+)>
