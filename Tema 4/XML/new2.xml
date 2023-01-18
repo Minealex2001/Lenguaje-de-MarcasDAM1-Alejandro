@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Restaurante>
+    <Empleados>
+        <Camareros>
+            <Camarero>
+                <Nombre>Edu</Nombre>
+                <Apellidos>Ribero Aller</Apellidos>
+                <Identificador>548645</Identificador>
+                <Salario>400€</Salario>
+                <Cargo>Superior</Cargo>
+            </Camarero>
+            <Camarero>
+                <Nombre>Ivan</Nombre>
+                <Apellidos>Melendi Meridiano</Apellidos>
+                <Identificador>548856</Identificador>
+                <Salario>300€</Salario>
+                <Cargo>Sub-Jefe</Cargo>
+            </Camarero>
+        </Camareros>
+        <cocineros>
+            <cocinero>
+                <Nombre>Rival</Nombre>
+                <Apellidos>Ordon Torrente</Apellidos>
+                <Identificador>654546</Identificador>
+                <Salario>2000€</Salario>
+                <Cargo>Chef</Cargo>
+            </cocinero>
+        </cocineros>
+    </Empleados>
+</Restaurante>

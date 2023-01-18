@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Facturas>
+    <Factura>
+        <NumeroFactura>
+            <Numero>999</Numero>
+            <Equipo>Equipos Digitales S.L.</Equipo>
+            <Calle>Av. Valladolid</Calle>
+            <Ciudad>Madrid</Ciudad>
+            <codigoPostal>28015</codigoPostal>
+            <C.I.F>Q-9876543</C.I.F>
+            <Telefono>917776688</Telefono>
+            <Fax>91.777.66.99</Fax>
+            <Fecha>12-01-2005</Fecha>
+            <Pedido>nº 731</Pedido>
+            <formaDePago>EFECTIVO</formaDePago>
+        </NumeroFactura>
+        <datosClientes>
+            <Numero_cliente>879</Numero_cliente>
+            <Nombre>Dario BUeno Gutierrez</Nombre>
+            <Direccion>Av. Oporto nº7 4ºd</Direccion>
+            <Poblacion>Madrid</Poblacion>
+            <codigoPostal>28043</codigoPostal>
+            <Provincia>Madrid</Provincia>
+        </datosClientes>
+        <datosFactura>
+          <Datos>
+            <Ref>MII93000F/8</Ref>
+            <Descripcion>MICRO PENTIUM IV 3000MHZ FB800</Descripcion>
+            <Cantidad>1</Cantidad>
+            <Precio>230 eur.</Precio>
+            <IVA>16,0</IVA>
+            <Importe>266,80 eur.</Importe>
+          </Datos>
+          <Datos>
+            <Ref>MB8QDIP4</Ref>
+            <Descripcion>PLACA BASE QDI P4</Descripcion>
+            <Cantidad>1</Cantidad>
+            <Precio>180 eur.</Precio>
+            <IVA>16,0</IVA>
+            <Importe>208,80 eur.</Importe>
+          </Datos>
+          <Datos>
+            <Ref>MEDD512M32</Ref>
+            <Descripcion>DIMM DDR 512MB 3200</Descripcion>
+            <Cantidad>2</Cantidad>
+            <Precio>40 eur.</Precio>
+            <IVA>16,0</IVA>
+            <Importe>92,80 eur.</Importe>
+          </Datos>
+          <Datos>
+            <Ref>HD250GSA7</Ref>
+            <Descripcion>DISCO DURO 250GB S-ATA 7200</Descripcion>
+            <Cantidad>4</Cantidad>
+            <Precio>120 eur.</Precio>
+            <IVA>16,0</IVA>
+            <Importe>556,80 eur.</Importe>
+          </Datos>
+        </datosFactura>
+        <baseImponible>970,00 eur.</baseImponible>
+        <porcentajeIVA>16,0</porcentajeIVA>
+        <cuotaIVA>155,20 eur.</cuotaIVA>
+        <totalFactura>1125,20 eur</totalFactura>
+    </Factura>
+</Facturas>    

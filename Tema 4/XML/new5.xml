@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRERIAS>
+    <libreria>
+        <Nombre_libreria>Alcatron</Nombre_libreria>
+        <libro>
+            <ISBN>598118</ISBN>
+            <titulo>El conde Bucon</titulo>
+            <tratamiento_material>Papel de arbol buticano</tratamiento_material>
+            <autores>Merceli Morales</autores>
+            <editorial>Cacolat</editorial>
+            <Fecha_publicacion>20.2.2000</Fecha_publicacion>
+            <paguina_web>Alimur.com</paguina_web>
+            <Precio>898.00€</Precio>
+        </libro>
+        <libro>
+            <ISBN>51284498</ISBN>
+            <titulo>El Corral de vermel</titulo>
+            <tratamiento_material>Ojas de coca</tratamiento_material>
+            <autores>Pilar Murillo</autores>
+            <editorial>Carrascal</editorial>
+            <Fecha_publicacion>12.5.1989</Fecha_publicacion>
+            <paguina_web>Ecarim.es</paguina_web>
+            <Precio>20.59€</Precio>
+        </libro>
+        <libro>
+            <ISBN>7918189</ISBN>
+            <titulo>Chochino</titulo>
+            <tratamiento_material>Piel de cordero</tratamiento_material>
+            <autores>Miliar Matusalen</autores>
+            <editorial>CocainMachin</editorial>
+            <Fecha_publicacion>89.8.1650</Fecha_publicacion>
+            <paguina_web>Lawebmel.com</paguina_web>
+            <Precio>9652.99€</Precio>
+        </libro>
+    </libreria>
+    <libreria>
+        <Nombre_libreria>Merci Bocu</Nombre_libreria>
+        <libro>
+            <ISBN>5657849545</ISBN>
+            <titulo>Pama,a</titulo>
+            <tratamiento_material>Piedrad dural</tratamiento_material>
+            <autores>Carlos Misericordia</autores>
+            <editorial>CocaineMachin</editorial>
+            <Fecha_publicacion>7.5.2003</Fecha_publicacion>
+            <paguina_web>Web.com</paguina_web>
+            <Precio>98989898.58€</Precio>
+        </libro>
+        <libro>
+            <ISBN>981322104256</ISBN>
+            <titulo>Titulo</titulo>
+            <tratamiento_material>Material</tratamiento_material>
+            <autores>Autores</autores>
+            <editorial>Editoriales</editorial>
+            <Fecha_publicacion>Fechas</Fecha_publicacion>
+            <paguina_web>Paguinas</paguina_web>
+            <Precio>Precios</Precio>
+        </libro>
+        <libro>
+            <ISBN>617684813412</ISBN>
+            <titulo>Titulo</titulo>
+            <tratamiento_material>Tratamiento</tratamiento_material>
+            <autores>Autores</autores>
+            <editorial>Editoriales</editorial>
+            <Fecha_publicacion>Fecha</Fecha_publicacion>
+            <paguina_web>Web</paguina_web>
+            <Precio>Precios</Precio>
+        </libro>
+    </libreria>
+</LIBRERIAS>
