@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="ejercicio7.xsd" type="application/xml-xsd"?>
+<pagos>
+ <nombre>Javier Toledano</nombre>
+ <fechaNacimiento>1979-02-04</fechaNacimiento>
+ <hora>23:55:15</hora>
+ <hora>23:55:15</hora>
+ <precio>123.56</precio>
+ <cantidad>678</cantidad>
+ <pagado>true</pagado>
+</pagos>

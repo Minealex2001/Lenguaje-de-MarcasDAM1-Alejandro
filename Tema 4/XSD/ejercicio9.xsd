@@ -1,0 +1,39 @@
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoAnyo">
+<xs:restriction base="xs:positiveInteger">
+<xs:minInclusive value="1900"/>
+<xs:maxInclusive value="2011"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="fechaType">
+xs:sequence
+<xs:element name="mes" type="tipoMes" minOccurs="0"/>
+<xs:element name="anyo" type="tipoAnyo"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="tipoNombre">
+<xs:restriction base="xs:string">
+<xs:minLength value="0"/>
+<xs:maxLength value="100"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoISBN">
+<xs:restriction base="xs:string">
+<xs:minLength value="13"/>
+<xs:maxLength value="17"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="categoriaType">
+<xs:restriction base="xs:string">
+<xs:enumeration value="autobiografia"/>
+<xs:enumeration value="noficcion"/>
+<xs:enumeration value="ficcion"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

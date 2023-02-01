@@ -1,0 +1,68 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="discos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="grupo" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" maxLength="50"/>
+              <xs:element name="miembro" type="xs:string" maxLength="50" maxOccurs="3"/>
+              <xs:element name="nacionalidad" type="xs:string" maxLength="50" minOccurs="0"/>
+              <xs:choice minOccurs="0">
+                <xs:sequence>
+                  <xs:element name="web" type="xs:anyURI"/>
+                  <xs:element name="email" type="xs:anyURI"/>
+                </xs:sequence>
+                <xs:sequence>
+                  <xs:element name="calle" type="xs:string" maxLength="50"/>
+                  <xs:element name="localidad" type="xs:string" maxLength="50"/>
+                </xs:sequence>
+              </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="nom" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="disco" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="interprete">
+                <xs:complexType>
+                  <xs:attribute name="nom" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="titulo" type="xs:string" maxLength="50"/>
+              <xs:element name="discografica" type="xs:string" default="CBS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Sony"/>
+                    <xs:enumeration value="CBS"/>
+                    <xs:enumeration value="SIRE"/>
+                    <xs:enumeration value="OTRAS"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="anio">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:integer">
+                      <xs:attribute name="mes" type="xs:string">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:enumeration value="enero"/>
+                            <xs:enumeration value="febrero"/>
+                            <xs:enumeration value="marzo"/>
+                            <xs:enumeration value="abril"/>
+                            <xs:enumeration value="mayo"/>
+                            <xs:enumeration value="junio"/>
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
+                    </xs:extension>
+                  </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+      </xs:sequence>
+</xs:schema>

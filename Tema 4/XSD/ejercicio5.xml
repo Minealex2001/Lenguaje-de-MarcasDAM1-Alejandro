@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="heladeria" type="heladeriaType"/>
+<xs:complexType name="heladeriaType">
+<xs:sequence>
+<xs:element name="helado" maxOccurs="unbounded" type="heladoType"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="heladoType">
+<xs:sequence>
+<xs:choice>
+<xs:element name="chocolate" type="xs:int" minOccurs="0" maxOccurs="1"/>
+<xs:element name="fresa" type="xs:int" minOccurs="0" maxOccurs="1"/>
+</xs:choice>
+<xs:choice>
+<xs:element name="vainilla" type="xs:int" minOccurs="0" maxOccurs="1"/>
+<xs:element name="turron" type="xs:int" minOccurs="0" maxOccurs="1"/>
+<xs:element name="nata" type="xs:int" minOccurs="0" maxOccurs="1"/>
+</xs:choice>
+</xs:sequence>
+<xs:attribute name="fabricación" type="xs:date"/>
+</xs:complexType>
+</xs:schema>

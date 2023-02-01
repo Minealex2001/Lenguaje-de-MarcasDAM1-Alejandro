@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="matricula" type="matriculaType"/>
+
+<xs:complexType name="matriculaType">
+<xs:sequence>
+<xs:element name="personal" type="personalType" minOccurs="1" maxOccurs="1"/>
+<xs:element name="pago" type="pagoType" minOccurs="1" maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="personalType">
+<xs:sequence>
+<xs:element name="dni" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="titulacion" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="curso_academico" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="domicilios" type="domiciliosType" minOccurs="1" maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="domiciliosType">
+<xs:sequence>
+<xs:element name="domicilio" type="domicilioType" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="domicilioType">
+<xs:sequence>
+<xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+</xs:sequence>
+<xs:attribute name="tipo" type="xs:string" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="pagoType">
+<xs:sequence>
+<xs:element name="tipo_matricula" type="xs:string" minOccurs="1" maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+
+</xs:schema>

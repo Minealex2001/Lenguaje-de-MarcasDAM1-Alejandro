@@ -1,0 +1,60 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Definición de tipos de datos -->
+  <xs:simpleType name="tipoID">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="9999"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoTelefono">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="917776688"/>
+      <xs:enumeration value="917776699"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoFormaPago">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="efectivo"/>
+      <xs:enumeration value="tarjeta"/>
+      <xs:enumeration value="plazos"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoRef">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="5"/>
+      <xs:maxLength value="15"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoDesc">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoPrecio">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"/>
+      <xs:totalDigits value="7"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoImporte">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"/>
+      <xs:totalDigits value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoCodigoPostal">
+    <xs:restriction base="xs:integer">
+      <xs:length value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoIva">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="99"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definición de elementos -->
+  <xs:element name="factura">
+    <xs:complexType
