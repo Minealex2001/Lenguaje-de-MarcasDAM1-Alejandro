@@ -3,8 +3,9 @@
 <!ELEMENT futuro (producto,mercado,ciudad_procedencia)>
 <!ELEMENT producto (#PCDATA)>
 <!ELEMENT mercado (#PCDATA)>
-<!ELEMENT ciudad_procedencia (frankfurt?,madrid?,tokio?)>
+<!ELEMENT ciudad_procedencia (frankfurt?,madrid?,tokio?,nueva_york?)>
 <!ELEMENT madrid EMPTY>
+<!ELEMENT nueva_york EMPTY>
 <!ELEMENT frankfurt EMPTY>
 <!ELEMENT tokio EMPTY>
 <!ELEMENT divisa (nombre_divisa,tipo_de_cambio+,ciudad_procedencia)>
