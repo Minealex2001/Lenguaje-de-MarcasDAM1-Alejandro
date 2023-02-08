@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF‐8"?>
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<portes>
+    <recepcion>
+        <producto>Fruta</producto>
+        <cantidad>125</cantidad>
+        <codigoreceptor>333-AZT</codigoreceptor>
+    </recepcion>
+    <entrega receptor="Mercados SL" coste="1321">
+        <transportista>T2</transportista>
+        <transportista>T3</transportista>
+        <distancia unidad="millas">468</distancia>
+    </entrega>
+    <recepcion>
+        <producto>Verdura</producto>
+        <cantidad>1000</cantidad>
+        <!--El
+        codigo de receptor no se usó aquí-->
+    </recepcion>
+</portes>
