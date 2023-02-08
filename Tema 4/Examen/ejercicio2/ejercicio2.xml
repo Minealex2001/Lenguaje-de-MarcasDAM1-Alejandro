@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF‐8"?>
-<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="ejercicio2.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <portes>
     <recepcion>
         <producto>Fruta</producto>
@@ -14,7 +14,6 @@
     <recepcion>
         <producto>Verdura</producto>
         <cantidad>1000</cantidad>
-        <!--El
-        codigo de receptor no se usó aquí-->
+        <!--El codigo de receptor no se usó aquí-->
     </recepcion>
 </portes>
